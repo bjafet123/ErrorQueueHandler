@@ -1,0 +1,14 @@
+{
+	"title": "OIH Rabbitmq Queue Consumer",
+	"description": "OIH component that consumes a queue in Rabbitmq for error handler",
+	"version": "0.0.1",
+	"docsUrl": "https://github.com/bjafet123/ErrorQueueHandler/blob/main/README.md",
+	"buildType": "docker",
+	"credentials": {},
+	"triggers": {
+		"consumesQueue": {
+			"title": "Creates an error to test the handler.",
+			"main": "./lib/triggers/errorQueueHandler.js"
+		}
+	}
+}
